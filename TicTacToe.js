@@ -73,6 +73,7 @@ function myTurn() {
       // positions.splice(numberToRemove, position);
       positions[numberToRemove] = "o";
       console.log(positions);
+      cpuTurn();
     } else {
       console.log("That position is not available, try again.");
       myTurn();
